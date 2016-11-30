@@ -1,0 +1,42 @@
+<p>
+  Parent Component
+</p>
+
+<hr />
+
+<div class="inputExample">
+  <!--<input type="text" [(ngModel)]="adjective">  -->
+</div>
+
+<app-child1 adjective="adjective"></app-child1>
+
+<hr />
+
+<div class="child2">
+  <!--<app-child2 *ngFor="let name of names"
+    [name]="name">
+  </app-child2>-->
+</div>
+
+<hr />
+
+<div class="child3">
+  <!--<app-child3 prop1="Uno" prop2="Dos"></app-child3>-->
+</div>
+
+<div class="child4">
+  <!--<h2>Should we use Angular2?</h2>
+    <h3>Agree: {{agreed}}, Disagree: {{disagreed}}</h3>
+    <app-child4 *ngFor="let voter of voters"
+      [name]="voter"
+      (onVoted)="onVoted($event)">
+    </app-child4>-->
+</div>
+
+<div class="child5 local_variable">
+  <!--<h3>Countdown:)</h3>
+  <button (click)="timer.start()">Start</button>
+  <button (click)="timer.stop()">Stop</button>
+  <div class="seconds">{{timer.seconds}}</div>
+  <app-child5 #timer></app-child5>-->
+</div>
